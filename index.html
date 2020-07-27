@@ -1,37 +1,52 @@
-<!DOCTYPE html> 
-<html lang="en">
+<!DOCTYPE html>
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width= , initial-scale=1.0" /> 
-        <title>Numbers App</title> 
-        <link rel="stylesheet" href="styles.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">  
+        <link rel="stylesheet" href="styles.css" />
+
+        <meta
+            name="viewport"
+            content="width-device-width"
+            ,
+            initial-scale="1"
+        />
+        <title> </title>
     </head>
     <body>
-        <h1>Numbers App</h1> 
-        <h3>Press Submit for random facts about numbers !</h3>  
-        <form id="numbersForm">
-        <input type="text" name="" id="userInput" placeholder="search for facts..." />  
-        <input type="submit" value="get Data" class="btn" />   
-    </form> 
-<!-- 
-    <div class="wrapper">  
-        <h3 id="year"></h3> 
-        <h3 id="date"></h3> 
-        <h3 id=""> </h3>
-        
-        </div> 
-
-        //     "found": true,
-        //     "number": 2012,
-        //     "type": "year",
-        //     "date": "June 6"
-    --> 
-
-  <span id="number-fact"></span> 
-
-
- -->
-
-
+        <nav
+            class="navbar is-dark"
+            role="navigation"
+            aria-label="main navigation"
+        >
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/"></a> 
+            </div>
+        </nav>
+        <main>
+            <section class="hero ">
+                <div class="hero-body">
+                    <div class="container">
+                        <h1 class="title">
+                     
+                        </h1>
+                        <h2 class="subtitle">
+                            Click go to see random facts about numbers ! 
+                        </h2>
+                    </div>
+                </div>
+            </section>
+            <div class="button-section">
+                <button class="go-button button is-large is-success">
+                    GO!
+                </button>
+            </div>
+            <div class="loading">
+                <!-- <progress class="progress is-large is-info" max="100"
+                    >60%</progress -->
+                >
+            </div>
+            <!-- <div class="columns"></div> -->
+        </main>
+        <script src="app.js"></script>
     </body>
 </html>
